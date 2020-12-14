@@ -6,7 +6,6 @@ IMAGE_INSTALL_append = "\
 	packagegroup-core-boot \
 	packagegroup-core-ssh-openssh \
 	dnsmasq \
-	usbinit \
 "
 
 IMAGE_INSTALL_append_beaglebone-green-wifi = "\
