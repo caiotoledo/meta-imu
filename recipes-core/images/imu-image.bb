@@ -8,7 +8,6 @@ IMAGE_INSTALL_append = "\
 	packagegroup-core-x11 \
 	packagegroup-core-x11-base \
 	dbus-cxx \
-	dnsmasq \
 "
 
 IMAGE_INSTALL_append_beaglebone-green-wifi = "\
