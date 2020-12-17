@@ -21,5 +21,4 @@ S = "${WORKDIR}/git/"
 
 inherit pkgconfig cmake
 
-EXTRA_OECMAKE = ""
 OECMAKE_FIND_ROOT_PATH_MODE_PROGRAM = "BOTH"
