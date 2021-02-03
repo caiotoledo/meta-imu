@@ -4,7 +4,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
 INITSCRIPT_NAME = "init-dbus"
-INITSCRIPT_PARAMS = "defaults 99 10"
+INITSCRIPT_PARAMS = "defaults 95 15"
 
 FILEEXTRAPATHS_prepend = "${THISDIR}/files"
 SRC_URI = "file://init-dbus"

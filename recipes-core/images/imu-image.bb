@@ -6,6 +6,7 @@ IMAGE_INSTALL_append = "\
 	packagegroup-core-boot \
 	packagegroup-core-ssh-openssh \
 	dbus-init \
+	imu-rpc \
 "
 
 IMAGE_INSTALL_append_beaglebone-green-wifi = "\
