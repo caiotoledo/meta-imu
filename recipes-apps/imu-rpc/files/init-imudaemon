@@ -7,7 +7,7 @@ start() {
 	printf "Starting IMU Daemon: "
 	source /etc/profile
 	imu-daemon -d -r50 -g250 -a2
-	imu-socket -d -p1111
+	imu-socket -d -tu -p1111
 	echo "OK"
 }
 

@@ -2,7 +2,7 @@ SUMMARY = "Server and Client IMU application using RPC communication"
 HOMEPAGE = "https://github.com/caiotoledo/imu-rpc"
 SECTION = "Application"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=fbe1a119bfcf3a8d657029c25032df83"
+LIC_FILES_CHKSUM = "file://LICENSE.md;md5=fbe1a119bfcf3a8d657029c25032df83"
 
 INITSCRIPT_NAME = "init-imudaemon"
 INITSCRIPT_PARAMS = "defaults 99 10"
@@ -12,7 +12,7 @@ SRC_URI = "\
 	git://github.com/caiotoledo/imu-rpc.git;branch=master \
 	file://init-imudaemon \
 "
-SRCREV = "07cee0bb2a93c31fb9329672dfeb3e3b0512233e"
+SRCREV = "dd2c1e72a06560e2a4b4460c2ed666274d96e98f"
 
 DEPENDS = "dbus-cxx"
 RDEPENDS_${PN} = "dbus-cxx"
