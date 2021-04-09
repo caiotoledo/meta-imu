@@ -1,0 +1,24 @@
+diff --git a/arch/arm/boot/dts/am335x-boneblack.dts b/arch/arm/boot/dts/am335x-boneblack.dts
+index d3928662aed4..c1ad1f254ae0 100644
+--- a/arch/arm/boot/dts/am335x-boneblack.dts
++++ b/arch/arm/boot/dts/am335x-boneblack.dts
+@@ -7,6 +7,7 @@
+ #include "am33xx.dtsi"
+ #include "am335x-bone-common.dtsi"
+ #include "am335x-boneblack-common.dtsi"
++#include "am335x-bone-imu.dtsi"
+ 
+ / {
+ 	model = "TI AM335x BeagleBone Black";
+diff --git a/arch/arm/boot/dts/am335x-bonegreen.dts b/arch/arm/boot/dts/am335x-bonegreen.dts
+index c12bb0717779..402843d56735 100644
+--- a/arch/arm/boot/dts/am335x-bonegreen.dts
++++ b/arch/arm/boot/dts/am335x-bonegreen.dts
+@@ -7,6 +7,7 @@
+ #include "am33xx.dtsi"
+ #include "am335x-bone-common.dtsi"
+ #include "am335x-bonegreen-common.dtsi"
++#include "am335x-bone-imu.dtsi"
+ 
+ / {
+ 	model = "TI AM335x BeagleBone Green";

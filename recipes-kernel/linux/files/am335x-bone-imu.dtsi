@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
+ */
+
+&i2c2 {
+       pinctrl-names = "default";
+       pinctrl-0 = <&i2c2_pins>;
+
+       status = "okay";
+       clock-frequency = <400000>;
+
+       mpu6050: mpu6050 {
+               status = "okay";
+               compatible = "invensense,mpu6050";
+               reg = <0x68>;
+               interrupt-parent = <&gpio1>;
+               interrupts = <29 1>;
+       };
+};
