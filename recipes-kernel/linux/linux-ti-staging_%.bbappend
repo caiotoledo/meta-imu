@@ -6,7 +6,6 @@ FILES_FOR_BBB_BBGW = "\
 	file://add-bone-imu-dtsi.patch \
 "
 SRC_URI_append_beaglebone = "${FILES_FOR_BBB_BBGW}"
-#SRC_URI_append_beaglebone-green-wifi = "${FILES_FOR_BBB_BBGW}"
 
 # Append kernel configuration for MPU6050
 KERNEL_CONFIG_FRAGMENTS_append = "\
